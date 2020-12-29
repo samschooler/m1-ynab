@@ -1,3 +1,6 @@
 FROM camilin87/node-cron:latest
 
-COPY . /usr/src/app
+WORKDIR /usr/src/app
+COPY package*.json ./
+RUN npm install
+COPY . .
