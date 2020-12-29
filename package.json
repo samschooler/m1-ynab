@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
 		"start": "node index.js",
-		"build": "docker build",
+		"build": "docker build .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
